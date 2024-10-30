@@ -23,7 +23,7 @@ public class Main {
         float media = (n1 + n2) / 2;
 
         if(media > MEDIA)
-            System.out.printf("Parabéns %s, você foi aprovado com a media: %f", nome, media);
+            System.out.printf("Parabens %s, você foi aprovado com a media: %f", nome, media);
         else
             System.out.printf("%s, você foi reprovado com a media: %f", nome, media);
     }
