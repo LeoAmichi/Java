@@ -5,21 +5,26 @@ public class Main {
 
         Scanner scan = new Scanner(System.in); //Um objeto chamado scan do tipo Scanner é instanciado a partir da classe Scanner, utilizando a entrada padrão System.in para capturar dados do teclado"
 
-        int x = 11; //Uma variável do tipo inteiro que recebe 10*
-        int n1 = 0;
-        int n2 = 0;
+        //int x = 11; Uma variável do tipo inteiro que recebe 10*
+        float n1 = 0;
+        float n2 = 0;
+        final float MEDIA = 6;
         String nome;
 
         System.out.print("Digite seu nome: ");
         nome = scan.next();
 
         System.out.print("Digite o primeiro número: ");
-        n1 = scan.nextInt();
+        n1 = scan.nextFloat();
 
         System.out.print("Digite o segundo número: ");
-        n2 = scan.nextInt();
+        n2 = scan.nextFloat();
 
-        System.out.printf("%s, Olá, a soma entre os numeros digitados: %d", nome, n1 + n2);
+        float media = (n1 + n2) / 2;
 
+        if(media > MEDIA)
+            System.out.printf("Parabéns %s, você foi aprovado com a media: %f", nome, media);
+        else
+            System.out.printf("%s, você foi reprovado com a media: %f", nome, media);
     }
 }
