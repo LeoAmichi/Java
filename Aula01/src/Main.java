@@ -17,7 +17,7 @@ public class Main {
         System.out.print("Digite o primeiro número: ");
         n1 = scan.nextFloat();
 
-        System.out.print("Digite o segundo número: ");
+        System.out.print("Digite o segundo numero: ");
         n2 = scan.nextFloat();
 
         float media = (n1 + n2) / 2;
