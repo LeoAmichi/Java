@@ -1,6 +1,6 @@
 public class Pessoa {
-    String nome;
-    int idade;
+    public String nome;
+    public int idade;
 
     //Construtor usando "this" para diferenciar variáveis locais e de instância
     Pessoa(String nome, int idade){
