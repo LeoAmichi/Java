@@ -4,12 +4,13 @@ public class Main {
     public static void main(String[] args) { //Metodo Main
         Scanner scan = new Scanner(System.in);
 
-        Jogador jogador1 = new Jogador();
-        jogador1.nome = scan.next();
-        jogador1.idade = scan.nextInt();
+        Jogador Carlos = new Jogador();
+        Carlos.setCPF("03024430105");
+        Jogador Leo = new Jogador();
+        Leo.setCPF("4192984182830");
 
-        System.out.println(jogador1.nome);
-        System.out.println(jogador1.idade);
+        System.out.println(Carlos.getCPF());
+        System.out.println(Leo.getCPF());
 
     }
 }
