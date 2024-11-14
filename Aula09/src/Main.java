@@ -11,6 +11,5 @@ public class Main {
 
         System.out.println(Carlos.getCPF());
         System.out.println(Leo.getCPF());
-
     }
 }
